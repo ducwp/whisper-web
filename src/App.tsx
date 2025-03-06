@@ -19,12 +19,12 @@ function App() {
             </div>
 
             <div className='absolute bottom-4'>
-                Made with{" "}
+                Contact me{" "}
                 <a
                     className='underline'
-                    href='https://github.com/xenova/transformers.js'
+                    href='https://zalo.me/0936770119'
                 >
-                    🤗 Transformers.js
+                    🤗 0936770119
                 </a>
             </div>
         </div>
