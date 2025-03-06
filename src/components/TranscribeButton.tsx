@@ -21,7 +21,7 @@ export function TranscribeButton(props: Props): JSX.Element {
             ) : isTranscribing ? (
                 <Spinner text={"Đang phiên âm..."} />
             ) : (
-                "Chuyển đổi"
+                "Phiên âm"
             )}
         </button>
     );
