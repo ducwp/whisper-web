@@ -309,7 +309,7 @@ export function AudioManager(props: { transcriber: Transcriber }) {
                     {props.transcriber.progressItems.length > 0 && (
                         <div className='relative z-10 p-4 w-full'>
                             <label>
-                                Loading model files... (only run once)
+                                Đang tải tệp mô hình... (chỉ chạy một lần)
                             </label>
                             {props.transcriber.progressItems.map((data) => (
                                 <div key={data.file}>
