@@ -75,7 +75,7 @@ export default function AudioRecorder(props: {
             mediaRecorder.start();
             setRecording(true);
         } catch (error) {
-            console.error("Error accessing microphone:", error);
+            console.error("Lỗi khi truy cập micrô:", error);
         }
     };
 
@@ -130,8 +130,8 @@ export default function AudioRecorder(props: {
                 onClick={handleToggleRecording}
             >
                 {recording
-                    ? `Stop Recording (${formatAudioTimestamp(duration)})`
-                    : "Start Recording"}
+                    ? `Dừng ghi âm (${formatAudioTimestamp(duration)})`
+                    : "Bắt đầu ghi âm"}
             </button>
 
             {recordedBlob && (

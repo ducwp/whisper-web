@@ -557,15 +557,15 @@ function UrlModal(props: {
     return (
         <Modal
             show={props.show}
-            title={"From URL"}
+            title={"Nhập URL"}
             content={
                 <>
-                    {"Enter the URL of the audio file you want to load."}
+                    {"Nhập URL của tệp âm thanh bạn muốn tải."}
                     <UrlInput onChange={onChange} value={url} />
                 </>
             }
             onClose={props.onClose}
-            submitText={"Load"}
+            submitText={"Tải"}
             onSubmit={onSubmit}
         />
     );
@@ -682,10 +682,10 @@ function RecordModal(props: {
     return (
         <Modal
             show={props.show}
-            title={"From Recording"}
+            title={"Ghi Âm"}
             content={
                 <>
-                    {"Record audio using your microphone"}
+                    {"Ghi âm âm thanh bằng micrô của bạn"}
                     <AudioRecorder onRecordingComplete={onRecordingComplete} />
                 </>
             }
