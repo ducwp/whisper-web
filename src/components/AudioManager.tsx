@@ -373,6 +373,8 @@ function SettingsModal(props: {
         'Xenova/whisper-base': [77, 291],
         'Xenova/whisper-small': [249],
         'Xenova/whisper-medium': [776],
+        'Xenova/whisper-large-v2': [23776],
+        'Xenova/whisper-large-v3': [17776],
 
         // Distil Whisper (English-only)
         'distil-whisper/distil-medium.en': [402],
