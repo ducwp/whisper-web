@@ -33,5 +33,5 @@ export default {
     DEFAULT_SUBTASK: "transcribe",
     DEFAULT_LANGUAGE: "vietnamese",
     DEFAULT_QUANTIZED: isMobileOrTablet,
-    DEFAULT_MULTILINGUAL: false,
+    DEFAULT_MULTILINGUAL: true,
 };
